@@ -75,11 +75,6 @@ header .site-title {
 
 /* Slider One */
 
-.slider-one img {
-  height: 30rem;
-  width: 100%;
-}
-
 .site-slider {
   position: relative;
 }
