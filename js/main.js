@@ -1,3 +1,30 @@
+const breakpoint = [
+  {
+    breakpoint: 1280,
+    settings: {
+      slidesToShow: 4
+    }
+  },
+  {
+    breakpoint: 1009,
+    settings: {
+      slidesToShow: 3
+    }
+  },
+  {
+    breakpoint: 720,
+    settings: {
+      slidesToShow: 2
+    }
+  },
+  {
+    breakpoint: 460,
+    settings: {
+      slidesToShow: 1
+    }
+  }
+];
+
 // First Slider
 
 $('.slider-one')
@@ -19,7 +46,8 @@ $('.slider-two')
     nextArrow: '.site-slider-two .next',
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplaySpeed: 3000
+    autoplaySpeed: 3000,
+    responsive: breakpoint
   });
 
 // Third Slider
@@ -32,7 +60,8 @@ $('.slider-three')
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
-    inifinite: false
+    inifinite: false,
+    responsive: breakpoint
   });
 
 // Fourth Slider
@@ -45,7 +74,8 @@ $('.slider-four')
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
-    inifinite: false
+    inifinite: false,
+    responsive: breakpoint
   });
 
 // Fith Slider
@@ -58,5 +88,19 @@ $('.slider-five')
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
-    inifinite: true
+    inifinite: true,
+    responsive: breakpoint
+  });
+
+// Sixth Slider
+
+$('.slider-six')
+  .not('.slick-initialized')
+  .slick({
+    prevArrow: '',
+    nextArrow: '',
+    autoplaySpeed: 3000,
+    inifinite: true,
+    autoplay: true,
+    dots: true
   });

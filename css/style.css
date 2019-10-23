@@ -240,3 +240,70 @@ header .site-title {
   position: relative;
   margin: 4rem 0;
 }
+
+/* Our Clients */
+
+.slider-client {
+  width: 100%;
+  height: 100%;
+  background: url('../assets/cup-desk-drink-434337.jpg');
+  background-size: cover;
+  padding: 8% 0;
+  overflow: hidden;
+}
+
+.slider-box {
+  width: 85%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  margin: auto;
+  border-radius: 0.4rem;
+}
+
+.slider-six p {
+  padding: 2% 15%;
+  line-height: 32px;
+  font-family: var(--roboto);
+  color: var(--light-gray);
+}
+
+.slider-six .slick-dots {
+  bottom: -4rem;
+  left: 50%;
+}
+
+.slider-six .slick-dots button {
+  background-color: var(--border);
+}
+
+.slider-six .slick-dots li.slick-active button {
+  transform: scale(2.5);
+  background-color: var(--primary-color);
+  box-shadow: 1px 1px 2px 1px var(--border);
+}
+
+.site-info {
+  margin-top: 10rem;
+}
+
+/* Footer */
+
+footer h4 {
+  padding: 4rem 1rem 0;
+  font-family: var(--roboto);
+}
+
+footer .social i {
+  padding: 3% 1%;
+}
+
+footer .col-md-2 small {
+  color: var(--light-gray);
+  padding: 0.7em 0;
+}
+
+footer .follow-us div {
+  width: 33%;
+  height: 8rem;
+  background-color: lightblue;
+}
