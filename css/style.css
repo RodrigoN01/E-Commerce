@@ -216,3 +216,27 @@ header .site-title {
   background: var(--primary-color);
   color: white;
 }
+
+/* Slider Four */
+.site-slider-four {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.slider-four {
+  padding: 0 0.4rem;
+}
+
+.site-slider-four .product img {
+  width: 80%;
+  border: 1px solid var(--border);
+}
+
+.newseller {
+  margin-top: 8rem;
+}
+
+.slider-brand {
+  position: relative;
+  margin: 4rem 0;
+}

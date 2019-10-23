@@ -34,3 +34,29 @@ $('.slider-three')
     autoplaySpeed: 3000,
     inifinite: false
   });
+
+// Fourth Slider
+
+$('.slider-four')
+  .not('.slick-initialized')
+  .slick({
+    prevArrow: '.site-slider-four .prev',
+    nextArrow: '.site-slider-four .next',
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplaySpeed: 3000,
+    inifinite: false
+  });
+
+// Fith Slider
+
+$('.slider-five')
+  .not('.slick-initialized')
+  .slick({
+    prevArrow: '.slider-brand .prev',
+    nextArrow: '.slider-brand .next',
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplaySpeed: 3000,
+    inifinite: true
+  });
